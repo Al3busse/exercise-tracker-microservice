@@ -1,0 +1,30 @@
+{
+  "name": "Exercise Tracker",
+  "version": "0.1.0",
+  "description": "FreeCodeCamp - APIs and Microservices Projects",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.19",
+    "mongodb": "^3.5.9",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "shortid": "^2.2.15",
+    "moment": "^2.27.0"
+  },
+  "engines": {
+    "node": "6.9.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Al3busse/exercise-tracker-microservice"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "express"
+  ]
+}
